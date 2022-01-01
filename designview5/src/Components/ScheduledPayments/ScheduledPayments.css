@@ -1,0 +1,71 @@
+.schedulednav{
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.arrowbot{
+    width: 15px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+.companylogo{
+    width: 30px;
+}
+.twoButtons{
+    display: flex;
+    
+}
+/** sets the standards for each company scheduled payment module**/
+.company1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-right: 5px;
+    border-radius: 20px;
+    height: 100px;
+    margin-bottom: -5px;
+}
+.company{
+    font-size: 15px;
+    width: 70px;
+}
+#Youtube{
+    background: #FF0000;
+}
+#Netflix{
+    background: black;
+}
+#Vimeo{
+    background: #19B7EA;
+}
+#Spotify{
+    background: #1DB954;
+}
+#Apple{
+    background: rgb(80, 80, 80);
+    text-decoration:black;
+}
+#Crunchyroll{
+    background: orange;
+}
+.rate{
+    color: white;
+}
+.company{
+    color: white;
+}
+.schedulednav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paymentcompanies{
+    display: flex;
+
+}

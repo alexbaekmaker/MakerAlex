@@ -1,0 +1,102 @@
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin: 20px;
+    width: 20%;
+    border-radius: 20px;
+
+}
+.Fundbatch{
+    display: flex;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.Fund{
+color: #41688F;
+}
+.pfp{
+    width: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome{
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+}
+.name{
+    color: #41688F;
+    font-size: 16px;
+}
+.budget{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.monthly{
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+    letter-spacing: -.5px;
+}
+.money1{
+    font-size: 30px;
+}
+.piecon{
+    width: 17px;
+    height: 17px;
+    margin-right: 15px;
+}
+.nav{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dashdiv{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.signdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.topleft{
+    height: 400px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+.Dashboard1{
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+}
+.dashboardselect{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 15px;
+}

@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.border{
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  width: 935px;
+}
+.App{
+  display: flex;
+  margin: 20px;
+}
+.hamburger{
+  width: 30px;
+  height: 30px;
+}
+.smallboxes{
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  width: 250px;
+}
+.bigbox{
+  background-image: linear-gradient( rgb(126, 241, 126), rgb(197, 241, 126));
+  width: 630px;
+  margin-right: 8px;
+  height: 470px;
+}
+.navbarbig{
+  display: flex;
+  justify-content: space-between;
+}
+.leftnavbarbig{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  width: 170px;
+  margin-left: -8px;
+}
+.magnify{
+  width: 25px;
+  height: 25px;
+  
+}
+.rightnavbarbig{
+  padding: 20px;
+  padding-right: 25px;
+}
+
+.arrow{
+  width: 20px;
+  height: 13px;
+}
+.wired{
+  width: 130px;
+}
+.fintimes{
+  margin-top: 3px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+  padding-top: 20px;
+  width: 400px;
+  height: 400px;
+}
+.toptitle{
+  font-size: 50px;
+  opacity: 50%;
+}
+.midtitle{
+  font-size: 50px;
+}
+.description{
+width: 250px;
+font-size: 13px;
+}
+.mainbot{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+
+}
+.signup{
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.topbox{
+  margin-bottom: 8px;
+  background: rgb(126, 241, 126);
+  height: 164.66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.middlebox{
+  margin-bottom: 8px;
+  background-image: linear-gradient(rgb(126, 241, 126), rgb(153, 241, 126));
+  height: 164.66px;
+}
+.bottombox{
+  height: 164.66px;
+  background-image: linear-gradient(rgb(153, 241, 126), rgb(197, 241, 126));
+}
+.navbartop{
+  display: flex;
+  justify-content: space-between;
+}
+.leftnavbar, .rightnavbar{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.team{
+  font-size: 30px;
+  font-weight: 500;
+  opacity: 70%;
+}
+.person1, .person2{
+  width: 40px;
+  border: 2px solid rgb(126, 241, 126);
+  border-radius: 60%;
+}
+.person1{
+  margin-left:-30px;
+  position: absolute;
+}
+.maintop{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.description2{
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.navbarmid{
+  display: flex;
+  justify-content: space-between;
+}
+.play{
+  padding: 20px;
+  background-image: url(https://findicons.com/files/icons/2315/default_icon/256/media_play.png);
+  background-size: 25px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.middlebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainmid{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bottombox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainbot2{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbarbot{
+  padding: 20px;
+}
+.strategy{
+  font-size: 30px;
+  font-weight: 500;
+  opacity: 70%;
+}

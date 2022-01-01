@@ -1,0 +1,37 @@
+.image1{
+    border-radius: 50%;
+    background: transparent;
+    margin-right: 10px;
+    padding: 3px;
+    background-size: 15px;
+    background-position: center;
+    width: 23px;
+    height: 23px;
+    background-image: url(https://www.pngmart.com/files/7/Stocks-PNG-HD.png);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.image2{
+    border-radius: 50%;
+    background: transparent;
+    margin-right: 10px;
+    padding: 3px;
+    background-size: 15px;
+    background-position: center;
+    width: 23px;
+    height: 23px;
+    background-image: url(https://www.masjidunuurkc.org/wp-content/uploads/2016/09/Donation.png);
+    background-repeat: no-repeat;
+}
+.image3{
+    border-radius: 50%;
+    background: transparent;
+    margin-right: 10px;
+    padding: 3px;
+    background-size: 15px;
+    background-position: center;
+    width: 23px;
+    height: 23px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1055/1055913.png);
+    background-repeat: no-repeat;
+}

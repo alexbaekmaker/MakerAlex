@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+html{
+    background: #C1BBBD;
+}
+.App{
+
+    width: 59.2%;
+    background-color: #C1BBBD;
+    margin: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.nav{
+    background-color: rgb(255, 252, 247);
+    display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title{
+    color: black;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-top: 9px;
+}
+.navright{
+    display: flex;
+}
+a{
+    color: black;
+}
+.navlinks{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 13px;
+}
+#signup{
+    
+    padding: 10px;
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background:black;
+    font-weight: 550;
+}
+.topmain{
+    background: #E7E8EC;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+h1{
+    font-size: 41px;
+    width: 340px;
+    letter-spacing: 1px;
+}
+.description{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+}
+.startshopping{
+    border: none;
+    color: white;
+    background:black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 20px;
+}
+.package{
+    background: white;
+    border:none;
+    margin-top: 40px;
+    display:flex;
+    margin-bottom: 20px;
+}
+.tulipbouquet{
+    width: 100px;
+}
+.rosebouquet{
+    width: 100px;
+    height: 100px;
+}
+.buttons1{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-left: -10px;
+}
+#rose1{
+width: 40%;
+height: auto;
+padding: 10px;
+border-radius: 30px;
+box-shadow: 0px 0px 0px 4px #e7e8ec, 0px 0px 0px 6px #d9e0e6 ;
+}
+#tulip1{
+width: 40%;
+padding: 10px;
+height: auto;
+border-radius: 30px;
+box-shadow: 0px 0px 0px 4px #e7e8ec, 0px 0px 0px 6px #d9e0e6 ;
+}
+.flowerpackage{
+    margin-top: 15px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.flowerprice{
+    margin-top: 7px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.detail{
+    margin-top: 7px;
+    padding-right: 25px;
+    color: rgb(202, 202, 202);
+}
+.midbar{
+    background: black;  
+    padding-top: 70px; 
+    padding-bottom: 70px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.midbardesc{
+    text-align: center;
+}
+.description2{
+    font-weight: 200;
+}
+.number{
+    font-weight: 500;
+}
+.bottommain{
+    background: rgb(255, 252, 247);
+    padding: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bottomnav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.bottombutton{
+    display: flex;
+    margin-right: 20px;
+}
+.bottomleft{
+margin-right: 10px;
+padding-left: 13px;
+padding-right: 14px;
+padding-top: 6px;
+padding-bottom: 8px;
+border-radius: 20px;
+border: none;
+text-align: center;
+background: black;
+color: white;
+opacity: 10%;
+}
+.bottomright{
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.title2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.bestsellers{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.seller{
+    border: none;
+    padding-bottom: 0px;
+    border-radius: 25px;
+    width: 180px;
+    background: #E7E8EC;
+    flex-direction: column;
+}
+.seller:nth-child(1){
+    background-image: url(https://cdn.globalrose.com/assets/img/prod/buy-white-aster-flowers-globalrose.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+}
+.seller:nth-child(2){
+    background-image: url(https://cdn.yourpng.com/uploads/preview/red-rose-bouquet-flower-png-images-2-11616397254rrvwczqgse.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+}
+.seller:nth-child(3){
+    background-image: url(https://flowersgifts-ua.com/wp-content/uploads/2018/03/11-tulips.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+}
+.seller:nth-child(4){
+    background-image: url(https://images8.design-editor.com/95/9590774/3958%2F027561F8-AAEF-4AFC-6F2A-CA63EC352ECA.png_400);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+}
+.flag{
+    justify-content: space-between;
+    height: 180px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 17px;
+}
+.flag2{
+    display: flex;
+    height: 180px;
+    margin-top: 20px;
+    justify-content: flex-end;
+    margin-right: 17px;
+}
+.heart{
+    background-image: url(https://i.pinimg.com/originals/20/17/8d/20178db3af74897c81b501d3c256773e.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+.specialnew{
+    font-size: 8px;
+}
+.sellerbottom{
+    background: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.astercost{
+    font-weight: 400;
+    width: 100px;
+}
+.cart{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-image: url(https://www.pinclipart.com/picdir/big/403-4035278_png-file-svg-shopping-cart-icon-png-clipart.png);
+    background-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 1px black
+}
+.new{
+    background: black;
+    color: white;
+    padding-left: 0px;
+    width: 65px;
+    height: 28px;
+    position: relative;
+
+}
+.new::after{
+    content: '';
+    position: absolute;
+    z-index: 99999;
+    right: 0px;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    border-top: 12px solid transparent;
+    border-right: 10px solid #efefef;
+    border-bottom: 12px solid transparent;
+}
+.cartspace{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top:-20px;
+}

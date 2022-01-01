@@ -1,0 +1,40 @@
+.paymentlimit{
+    margin-top: 10px;
+    }
+    .limitdesc{
+        display: flex;
+        justify-content: space-between;
+    }
+    .limittext2{
+        display: flex;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .limittext{
+        color: grey;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .blue{
+        color: #41688F;
+    }
+    .grey{
+        color: grey;
+    }
+    .greybar{
+        width: 100%;
+        height: 9px;
+        background-color: rgb(233, 233, 233);
+        border-radius: 15px;
+        /** not filled, indicates the total size of the limit**/
+    }
+    .bluebar{
+        width: 50%;
+        height: 9px;
+        background-color: #41688F;
+        border-radius: 15px;
+        /** how much of the limit is filled **/
+    }
+    .bar{
+        margin-top: 10px;
+    }

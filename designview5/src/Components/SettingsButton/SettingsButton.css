@@ -1,0 +1,77 @@
+.rightnav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.gear, .noti{
+    width: 12px;
+}
+.settingstab{
+	background-color: rgb(180, 180, 180);
+	padding: 6px;
+	transform: translateY(50%);
+	border-radius: 5px;
+	position: absolute;
+	color: white;
+	z-index: 10;
+}
+.optionSettings{
+	margin-top: 2px;
+	cursor: pointer;
+}
+.notistab{
+position: absolute;
+transform: translate(0, 100%);
+background-color: rgb(180, 180, 180);
+color: white;
+padding: 6px;
+z-index: 11;
+border-radius: 5px;
+}
+.reddot{
+    width: 3px;
+}
+.settings, .notifications{
+    background: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+.settings{
+    margin-right: 10px;
+}
+.notifications {
+	background: transparent;
+	border: none;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: white;
+	position: relative;
+}
+.notificationsX {
+	background: transparent;
+	border: none;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: white;
+	position: relative;
+	cursor: pointer;
+}
+/**red dot for the notifications **/
+.notifications::before {
+	content: '';
+	position: absolute;
+	right: 0%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: red;
+	z-index: 1;
+}

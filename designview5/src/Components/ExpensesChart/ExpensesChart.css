@@ -1,0 +1,68 @@
+.righttop{
+    display: flex;
+    flex-direction: column;
+}
+.rightnav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+select{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: grey;
+    margin-top: 5px;
+}
+.expenses{
+    color: #41688F;
+}
+.chart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 9px;
+}
+/** pichart created by using a gradient **/
+.piechart{
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(black 60deg, cornflowerblue 60deg 130deg, yellow 130deg 130deg);
+    border-radius: 50%;
+    margin-left: 20px
+}
+.transport{
+    font-weight: 500;
+    margin-top: 6px;
+}
+.transportcost{
+    color: grey;
+    margin-top: 3px;
+}
+ul li span{
+    color: black;
+}
+/** colors of the dots**/
+ul .oneone {
+    color: black;
+}
+ul .twotwo{
+    color: yellow;
+}
+ul .threethree{
+    color: blue;
+}
+li{
+    font-size: 25px;
+    margin-top: -3px;
+}
+.itemsofchart{
+    width: 30%;
+}
+li span {
+    font-size: 15px;
+    position: relative;
+
+}

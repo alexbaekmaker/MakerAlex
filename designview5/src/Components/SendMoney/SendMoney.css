@@ -1,0 +1,106 @@
+.sendmoneytitle{
+    color: #41688F;
+    font-size: 20px;
+    
+}
+.pfp2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+.sendmoneynav{
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.plus{
+    background: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+.plussign{
+    width: 25px;
+    margin-bottom: -4.5px;
+
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.firstname{
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+}
+.lastname{
+    margin-top: -3px;
+    font-size: 15px;
+    color: grey;
+}
+.sendmoneytitle2{
+    color: #41688F;
+    font-size: 20px;
+}
+.sendmoney{
+    display: flex;
+    flex-direction: column;
+
+}
+.sendmoneynav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.people{
+    display: flex;
+justify-content: space-between;
+    margin-top: 13px;
+    overflow-x: auto;
+    width: 100%;
+
+}
+.nameinput{
+padding: 2px;
+font-size: 15px;
+margin-right: 5px;
+}
+.nameinputs{
+display: flex;
+position: relative;
+}
+.submitform{
+display: flex;
+align-items: center;
+position: fixed;
+margin-bottom: 50px;
+
+width: 100%;
+
+}
+.label{
+    background: rgb(219, 219, 219);
+
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 8px;
+}
+.addbutton{
+    background: rgb(219, 219, 219);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.label:hover {
+    filter: brightness(75%);
+}
+.addbutton:hover{
+    filter: brightness(75%);
+}

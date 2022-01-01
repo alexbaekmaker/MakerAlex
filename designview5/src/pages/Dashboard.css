@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Pages{
+    display: flex;
+    margin: 40px;
+    width: 80%;
+    height: 800px;
+    background: #ECEEEE;
+    border-radius: 20px;
+    padding-right: 30px;
+    margin-left: 160px;
+}
+
+.midcolumn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 70%;
+    border-radius: 20px;
+
+}
+
+.midcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 40%;
+    border-radius: 20px;
+
+}
+.search{
+
+display: flex;
+justify-content: space-between;
+width: 88%;
+background: white;
+padding: 10px;
+border-radius: 30px;
+padding-left: 25px;
+padding-right: 25px;
+align-items: center;
+}
+
+.magnify{
+background: transparent;
+border: none;
+display: flex;
+cursor: pointer;
+}
+.glass{
+    width: 15px;
+}
+
+.input1{
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+
+}
+.width{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.widthNotCentered{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.dashy{
+    color: #41688F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title1{
+    color: #41688F;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.rightcolumn{
+    display: flex;
+    flex-direction: column;
+padding-left: 10px;
+    margin-top: 20px;
+    width: 35%;
+    border-radius: 20px;
+}
+
+
+.tophalfright{
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.bottomright{
+    height: 400px;
+    margin-top: 2px;
+}
+
+
+
+

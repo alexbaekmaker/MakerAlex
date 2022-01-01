@@ -1,0 +1,64 @@
+.incomespendings{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.incometabs{
+    display: flex;
+    justify-content: center;
+}
+.incometab{
+    display: flex;
+    width: 140px;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ECEEEE;
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    cursor: pointer;
+    margin-left: 7px;
+}
+.incometab2{
+    display: flex;
+    border: 1px solid rgb(180, 180, 180);
+    width: 140px;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border-radius: 15px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.arrow1{
+    width: 20px;
+    padding: 7px;
+ 
+}
+.coolarrowtab, .coolarrow2{
+    margin: 6px;
+    border-radius: 50%;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+}
+
+.arrow2{
+    width: 20px;
+    padding: 7px;
+    
+    transform: rotate(180deg);
+}
+.rightincome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.incomespendings{
+    justify-content: center;
+}
